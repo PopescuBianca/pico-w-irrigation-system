@@ -1,15 +1,8 @@
 import network 
 import urequests
 import time
+import secrets
 from machine import ADC, Pin
-
-# WiFi Settings
-ssid = 'hp32'
-password = '23parola32'
-
-# Telegram Bot Settings
-bot_token = '6379595437:AAFRBTwwzOxbhjmNCY04H6teWPgLM-5tSDQ'
-chat_id = '997249782' 
 
 # Sensor
 senzor_umiditate = ADC(Pin(27))
